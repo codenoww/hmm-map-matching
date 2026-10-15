@@ -1,0 +1,7 @@
+Model,Distance feature,Accuracy (test drive),Error E (test drive),Change vs baseline (pct points),best C,F1 (test pairs),emission weights,transition weights
+Nearest road (no HMM),-,0.9198760513501549,0.08012394864984507,-3.010181496237274,,,,
+"HMM, hand-picked weights",Gaussian (paper),0.9504205400619743,0.049579459938025705,0.04426737494466204,,,,
+L1 SVM (paper),Gaussian (paper),0.9499778663125277,0.050022133687472325,0.0,1.0,0.4535817539351108,"[0.45, 0.42, 0.14]","[0.66, 0.34]"
+L1 SVM (paper),Hyperbolic secant (change B),0.9504205400619743,0.049579459938025705,0.04426737494466204,1.0,0.4459203036053131,"[0.44, 0.41, 0.15]","[0.66, 0.34]"
+L1 logistic regression (change A),Gaussian (paper),0.949535192563081,0.050464807436918946,-0.04426737494466204,1.0,0.45511168384879724,"[0.42, 0.44, 0.14]","[0.72, 0.28]"
+L1 logistic regression (change A),Hyperbolic secant (change B),0.950863213811421,0.049136786188578974,0.08853474988933518,0.1,0.44812573006265266,"[0.44, 0.42, 0.14]","[0.69, 0.31]"
