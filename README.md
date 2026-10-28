@@ -2,7 +2,7 @@
 
 Real-time map matching with a Hidden Markov Model and Viterbi, based on the Stanford CS229 paper "Real-Time Dense Map Matching with Naive Hidden Markov Models: Delay versus Accuracy". Run on the Seattle (Newson & Krumm) dataset, plus a small change of our own.
 
-**Team:** Anushka (PES1UG24CS074) and [Person A name, SRN] — PES University
+**Team:** Anushka (PES1UG24CS074) and Anushka P Kumar (PES1UG24CS075) — PES University
 
 ## What it does
 GPS points are noisy. Map matching snaps each point to the road the vehicle was really on.
